@@ -1,0 +1,12 @@
+# Clone your repo
+git clone https://github.com/isaiahlM365x57536370/skills-change-commit-history.git
+cd skills-change-commit-history
+
+# Create the workflow directory and file
+mkdir -p .github/workflows
+# Paste the CodeQL workflow content into .github/workflows/codeql.yml
+
+# Commit and push
+git add .github/workflows/codeql.yml
+git commit -m "Enable CodeQL code scanning"
+git push
